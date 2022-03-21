@@ -47,8 +47,9 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">
-        {new Date().getFullYear()} My Restaurant. All Rights reserved.
+      <p className="p__opensans flex flex-ai-c flex-jc-c">
+        {new Date().getFullYear()} Inspired By JavaScript Mastery. <br />
+        Coded By Levi Terante.
       </p>
     </div>
   </div>
